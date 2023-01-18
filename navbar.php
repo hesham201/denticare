@@ -20,3 +20,34 @@
         </div>
     </div>
 </section>
+<section class="main-navbar">
+    <div class="wrap">
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+                <ul class="menu-items icon-items">
+                    <li><a href=""><span><i class="fa-solid fa-bag-shopping"></i></span></a></li>
+                    <li><a href=""><span><i class="fa-solid fa-magnifying-glass"></i></span></a></li>
+                    <li><a href=""><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                    <li><a href=""><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                    <li><a href=""><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+                    <li><a href=""><span><i class="fa-brands fa-pinterest-p"></i></span></a></li>
+                </ul>
+                <h1 class="logo">Navbar</h1>
+            </div>
+        </nav>
+    </div>
+</section>
