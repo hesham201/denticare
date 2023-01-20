@@ -1,9 +1,11 @@
 <footer class="footer">
     <section class="first-f">
         <div class="wrap">
-            <div class="grid">
-                <div>
-                    <img src="assets/images/logo-footer.png" alt="">
+            <div class="main-grid">
+                <div class="logo-full">
+                    <div class="footer-logo">
+                        <a href=""><img src="assets/images/logo-footer.png" alt=""></a>
+                    </div>
                     <p>We’re a friendly team of dentists working together to ensure that you receive the best treatment that you require.</p>
                 </div>
                 <div class="about-denticare">
@@ -24,7 +26,7 @@
                 <div class="social-net">
                     <h3 class="clr-green">Social Network</h3>
                     <p>Visit DentiCare on these social links.</p>
-                    <div>
+                    <div class="d-flex align-items-center">
                         <a href=""><span><i class="fa-brands fa-facebook-f"></i></span></a>
                         <a href=""><span><i class="fa-brands fa-twitter"></i></span></a>
                         <a href=""><span><i class="fa-brands fa-linkedin-in"></i></span></a>
@@ -37,7 +39,7 @@
     <section class="footer-s ">
         <div class="grid">
             <div class="copy-right d-flex justify-content-center align-items-center bg-green-type">
-                <p>Copyright 2018 by BoldThemes. All rights reserved.</p>
+                <p class="mb-0">Copyright 2018 by BoldThemes. All rights reserved.</p>
             </div>
             <div class="footer-nav d-flex justify-content-center bg-blue-type">
                 <ul>
