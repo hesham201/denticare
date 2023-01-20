@@ -306,3 +306,26 @@
 .fadeInUp {
     animation-name: fadeInUp
 }
+
+.experience-holdays {
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr 2fr 2fr 4fr;
+}
+
+.clr-blue {
+    color: rgb(16, 64, 153)
+}
+
+.clr-green {
+    color: rgb(0, 175, 137);
+}
+
+.bg-blue-type {
+    background-color: rgb(16, 64, 153);
+    color: white;
+}
+
+.bg-green-type {
+    background-color: rgb(0, 175, 137);
+    color: white;
+}
