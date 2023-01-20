@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* navbar  */
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
@@ -327,5 +331,32 @@
 
 .bg-green-type {
     background-color: rgb(0, 175, 137);
+    color: white;
+}
+
+
+
+
+/* foooter csss */
+.footer .footer-f {
+    background-color: rgb(225, 232, 240);
+}
+
+.footer-s .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer .footer-nav ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.footer .footer-nav li {
+    padding: 20px;
+}
+
+.footer-nav a {
     color: white;
 }

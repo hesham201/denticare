@@ -321,6 +321,92 @@ include_once "header.php"
                     <p>It is well known that Hungary has become a main tourism destination. Besides its charm and attractiveness, Hungary has developed to a top level in dental care and became a remarkable dental tourism location for foreign patients.</p>
                 </div>
             </div>
+            <div class="box">
+                <div class="icons-box">
+                    <div>
+                        <span><i class="fa-solid fa-plane-up"></i></span>
+                        <p>Travel</p>
+                    </div>
+                    <div>
+                        <span><i class="fa-solid fa-car"></i></span>
+                        <p>Car Parking</p>
+                    </div>
+                    <div>
+                        <span><i class="fa-solid fa-suitcase"></i></span>
+                        <p>Accomodatiom</p>
+                    </div>
+                    <div>
+                        <span><i class="fa-solid fa-road"></i></span>
+                        <p>Guide</p>
+                    </div>
+                    <div>
+                        <span><i class="fa-solid fa-language"></i></span>
+                        <p>Translator</p>
+                    </div>
+                    <div>
+                        <span><i class="fa-solid fa-camera"></i></span>
+                        <p>Sightseeing</p>
+                    </div>
+                </div>
+                <div class="btn-div">
+                    <button>Experience Your Dental Holidays Now!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Endulge-your">
+        <div class="wrap">
+            <div class="headings">
+                <h3>Endulge Your Stay,</h3>
+                <h2>Experience Hungary</h2>
+            </div>
+            <div class="grid">
+                <div>
+                    <div class="img-div1">
+                        <div class="img-div"></div>
+                        <div class="hover-effect"></div>
+                    </div>
+                    <div class="heading-img">
+                        <h3>Where to stay</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-div2">
+                        <div class="img-div"></div>
+                        <div class="hover-effect"></div>
+                    </div>
+                    <div class="heading-img">
+                        <h3>What to see</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-div3">
+                        <div class="img-div"></div>
+                        <div class="hover-effect"></div>
+                    </div>
+                    <div class="heading-img">
+                        <h3>Dine & Wine</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-div4">
+                        <div class="img-div"></div>
+                        <div class="hover-effect"></div>
+                    </div>
+                    <div class="heading-img">
+                        <h3>Go Around</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="no-contact">
+                <div>
+                    <p>Call Now</p>
+                    <p>+36 55 540 069</p>
+                </div>
+                <div>
+                    <button>Contact Us For Enquiry</button>
+                </div>
+            </div>
         </div>
     </section>
     <?php
