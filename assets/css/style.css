@@ -4,9 +4,25 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
 }
+
+
+button {
+    padding: 1.357em 1.786em;
+    border: none;
+    outline: none;
+}
+
+/* .wrap {
+    max-width: 1200px;
+    margin: auto;
+} */
 
 /* navbar  */
 .navbar input[type="checkbox"],
@@ -334,11 +350,221 @@ a {
     color: white;
 }
 
+/* card-main */
+.card-main {
+    padding: 50px 0;
+}
+
+.card-main .wrap {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card-main .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+
+}
+
+.card-main .entity img {
+    width: 100%;
+    transition: all .5s ease-in;
+}
+
+.card-main .entity .bg-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-main .bg-img:hover>img {
+    transform: scale(1.06);
+}
+
+.card-main .bg-img:hover>.hover-efct {
+    background-color: rgba(0, 175, 137, 0.6);
+}
+
+.card-main .content {
+    padding: 50px;
+    background-color: rgb(225, 232, 240);
+}
+
+.card-main .content .para {
+    height: 150px;
+    overflow-y: hidden;
+}
+
+.card-main .content p {
+    text-align: justify;
+}
+
+.card-main .btn-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-main .btn-logos button {
+    color: rgb(0, 175, 137);
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px rgb(34 34 34 / 20%);
+    transition: transform .2s ease-in;
+
+}
+
+.card-main .btn-logos button:hover {
+    transform: translateY(-5px);
+}
+
+.card-main .btn-logos span {
+    color: rgb(16, 64, 153);
+}
+
+.card-main .btn-logos a {
+    margin: 0 2px;
+}
+
+.card-main .bg-img .hover-efct {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in;
+}
+
+/* dental travel */
+.dental-travel {
+    background: url(../images/dental-travel.jpg);
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+}
+
+/* 
+.dental-travel .wrap {
+    max-width: 1200px;
+    margin: auto;
+} */
+
+.dental-travel .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.dental-travel .icons-box {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.dental-travel .box {
+    box-shadow: 1px 1px 10px 1px rgb(34 34 34 / 20%);
+    margin-bottom: -24px;
+}
+
+.dental-travel .btn-div {
+    padding: 50px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.dental-travel .btn-div button {
+    color: white;
+    background: rgb(16, 64, 153);
+    transition: all .2s ease-in;
+    /* background-image: linear-gradient(to right, #104099 51%, #00af89 100%); */
+}
+
+.dental-travel .btn-div button:hover {
+    /* background-image: linear-gradient(to right, #104099 51%, #00af89 100%); */
+    background-image: linear-gradient(to right, #104099 5%, #00af89 100%);
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 10px 1px rgb(34 34 34 / 20%);
+}
+
+.dental-travel .icons-box p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.dental-travel .icons-box span {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dental-travel .aero-icon svg {
+    transform: rotate(45deg);
+}
 
 /* endulge */
 .Endulge-your .wrap {
     max-width: 1200px;
     margin: auto;
+}
+
+.Endulge-your .no-contact {
+    margin: 50px 0;
+    background-image: url(../images/bgn-budapest-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    color: white;
+}
+
+.Endulge-your .no-contact button {
+    color: white;
+    /* background: rgb(0, 175, 137); */
+    transition: all .2s ease-in;
+    position: relative;
+    z-index: 2;
+    /* background-image: linear-gradient(to right, #104099 51%, #00af89 100%); */
+}
+
+.Endulge-your .no-contact button::after {
+    content: "";
+    top: 0;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: rgb(0, 175, 137);
+    transition: background-color .2s ease-in;
+}
+
+.Endulge-your .no-contact button::before {
+    content: "";
+    top: 0;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgba(16, 64, 153, 0.7);
+    clip-path: polygon(50% 0%, 100% 1%, 100% 100%, 47% 100%, 38% 86%, 38% 64%, 26% 41%, 44% 29%, 35% 16%);
+    z-index: -1;
+    transition: width .2s ease-in;
+}
+
+.Endulge-your .no-contact button:hover::before {
+    width: 60%;
+}
+
+.Endulge-your .no-contact button:hover::after {
+    z-index: -2;
+    opacity: 0.7;
+}
+
+.Endulge-your .no-contact button:hover {
+    /* background-image: linear-gradient(to right, #104099 51%, #00af89 100%); */
+    /* background-image: linear-gradient(to right, #00af89 5%, #104099 100%); */
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 10px 1px rgb(34 34 34 / 20%);
 }
 
 .Endulge-your .grid {
@@ -355,7 +581,21 @@ a {
     overflow: hidden;
 }
 
-.Endulge-your .img-div .hover-effect {}
+.Endulge-your .img-div .hover-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: none;
+    width: 100%;
+    height: 100%;
+    transition: background-color .6s ease-in;
+}
+
+.Endulge-your .img-div:hover>.hover-effect {
+    background-color: rgba(0, 175, 137, 0.7);
+}
 
 .Endulge-your .img-div:hover>img {
     transform: scale(1.08);

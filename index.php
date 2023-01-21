@@ -254,14 +254,63 @@ include_once "header.php"
     <section class="card-main">
         <div class="wrap">
             <div class="grid">
-                <div>
-                    <div class="bg-adam"></div>
+                <div class="entity">
+                    <div class="bg-img">
+                        <img src="assets/images/palmer.jpg" alt="">
+                        <div class="hover-efct"></div>
+                    </div>
                     <div class="content">
                         <h5>Clinic Director</h5>
-                        <h3>Adam <strong>Palmer</strong></h3>
+                        <h3 class="clr-blue">Adam <strong>Palmer</strong></h3>
 
                         <div class="para">
                             <p>The qualities of excellent communication and trust form part of our commitment to you and I have carefully chosen a great team of people.</p>
+                        </div>
+                        <div class="btn-logos">
+                            <button>Read More</button>
+                            <div>
+                                <a href=""><span><i class="fa-brands fa-facebook-f"></i></span></a>
+                                <a href=""><span><i class="fa-brands fa-twitter"></i></span></a>
+                                <a href=""><span><i class="fa-brands fa-linkedin-in"></i></span></a>
+                                <a href=""><span><i class="fa-brands fa-pinterest-p"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="entity">
+                    <div class="bg-img">
+                        <img src="assets/images/xavier.jpg" alt="">
+                        <div class="hover-efct"></div>
+                    </div>
+                    <div class="content">
+                        <h5>Senior Dental Surgeon</h5>
+                        <h3 class="clr-blue">Xavier <strong>Symmonds</strong></h3>
+
+                        <div class="para">
+                            <p>Committed to delivering dentistry of the highest quality, Xavier achieved numerous awards over Europe and United States.</p>
+                        </div>
+                        <div class="btn-logos">
+                            <button>Read More</button>
+                            <div>
+                                <a href=""><span><i class="fa-brands fa-facebook-f"></i></span></a>
+                                <a href=""><span><i class="fa-brands fa-twitter"></i></span></a>
+                                <a href=""><span><i class="fa-brands fa-linkedin-in"></i></span></a>
+                                <a href=""><span><i class="fa-brands fa-pinterest-p"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="entity">
+                    <div class="bg-img">
+                        <img src="assets/images/seward.jpg" alt="">
+                        <div class="hover-efct"></div>
+                    </div>
+                    <div class="content">
+                        <h5>Senior Orthodontist</h5>
+                        <h3 class="clr-blue">Kate <strong>Seward</strong></h3>
+
+                        <div class="para">
+                            <p>Emphatic and enjoying treating a wide range of patients, including children, oral hygiene and education is important to me as to my patients</p>
                         </div>
                         <div class="btn-logos">
                             <button>Read More</button>
@@ -312,44 +361,46 @@ include_once "header.php"
     </section>
     <section class="dental-travel">
         <div class="wrap">
-            <div>
-                <div class="headings">
-                    <h3>Start Your</h3>
-                    <h2>Dental Travel</h2>
-                </div>
-                <div class="para">
-                    <p>It is well known that Hungary has become a main tourism destination. Besides its charm and attractiveness, Hungary has developed to a top level in dental care and became a remarkable dental tourism location for foreign patients.</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="icons-box">
-                    <div>
-                        <span><i class="fa-solid fa-plane-up"></i></span>
-                        <p>Travel</p>
+            <div class="grid">
+                <div>
+                    <div class="headings">
+                        <h3 class="clr-green">Start Your</h3>
+                        <h2>Dental Travel</h2>
                     </div>
-                    <div>
-                        <span><i class="fa-solid fa-car"></i></span>
-                        <p>Car Parking</p>
-                    </div>
-                    <div>
-                        <span><i class="fa-solid fa-suitcase"></i></span>
-                        <p>Accomodatiom</p>
-                    </div>
-                    <div>
-                        <span><i class="fa-solid fa-road"></i></span>
-                        <p>Guide</p>
-                    </div>
-                    <div>
-                        <span><i class="fa-solid fa-language"></i></span>
-                        <p>Translator</p>
-                    </div>
-                    <div>
-                        <span><i class="fa-solid fa-camera"></i></span>
-                        <p>Sightseeing</p>
+                    <div class="para">
+                        <p>It is well known that Hungary has become a main tourism destination. Besides its charm and attractiveness, Hungary has developed to a top level in dental care and became a remarkable dental tourism location for foreign patients.</p>
                     </div>
                 </div>
-                <div class="btn-div">
-                    <button>Experience Your Dental Holidays Now!</button>
+                <div class="box">
+                    <div class="icons-box bg-green-type">
+                        <div>
+                            <span class="aero-icon"><i class="fa-solid fa-plane-up"></i></span>
+                            <p>Travel</p>
+                        </div>
+                        <div>
+                            <span><i class="fa-solid fa-car"></i></span>
+                            <p>Car Parking</p>
+                        </div>
+                        <div>
+                            <span><i class="fa-solid fa-suitcase"></i></span>
+                            <p>Accomodation</p>
+                        </div>
+                        <div>
+                            <span><i class="fa-solid fa-road"></i></span>
+                            <p>Guide</p>
+                        </div>
+                        <div>
+                            <span><i class="fa-solid fa-language"></i></span>
+                            <p>Translator</p>
+                        </div>
+                        <div>
+                            <span><i class="fa-solid fa-camera"></i></span>
+                            <p>Sightseeing</p>
+                        </div>
+                    </div>
+                    <div class="btn-div">
+                        <button>Experience Your Dental Holidays Now!</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -357,8 +408,8 @@ include_once "header.php"
     <section class="Endulge-your">
         <div class="wrap">
             <div class="headings">
-                <h3 class="clr-blue">Endulge Your Stay,</h3>
-                <h2 class="clr-blue">Experience Hungary</h2>
+                <h3 class="clr-blue text-center">Endulge Your Stay,</h3>
+                <h2 class="clr-blue text-center">Experience Hungary</h2>
             </div>
             <div class="grid">
                 <div>
@@ -399,12 +450,14 @@ include_once "header.php"
                 </div>
             </div>
             <div class="no-contact">
-                <div>
-                    <p>Call Now</p>
-                    <p>+36 55 540 069</p>
-                </div>
-                <div>
-                    <button>Contact Us For Enquiry</button>
+                <div class="px-5 h-100 d-flex justify-content-between align-items-center">
+                    <div>
+                        <p>Call Now</p>
+                        <p>+36 55 540 069</p>
+                    </div>
+                    <div>
+                        <button>Contact Us For Enquiry</button>
+                    </div>
                 </div>
             </div>
         </div>
