@@ -335,6 +335,44 @@ a {
 }
 
 
+/* endulge */
+.Endulge-your .wrap {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.Endulge-your .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+}
+
+.Endulge-your .img-div {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Endulge-your .img-div .hover-effect {}
+
+.Endulge-your .img-div:hover>img {
+    transform: scale(1.08);
+}
+
+.Endulge-your .img-div img {
+    width: 100%;
+    transition: transform .4s ease-in;
+}
+
+/* .Endulge-your .img-div1 {
+    background-image: url(../images/what-to-see.jpg);
+    background-position: ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+} */
 
 
 /* foooter csss */

@@ -357,44 +357,44 @@ include_once "header.php"
     <section class="Endulge-your">
         <div class="wrap">
             <div class="headings">
-                <h3>Endulge Your Stay,</h3>
-                <h2>Experience Hungary</h2>
+                <h3 class="clr-blue">Endulge Your Stay,</h3>
+                <h2 class="clr-blue">Experience Hungary</h2>
             </div>
             <div class="grid">
                 <div>
-                    <div class="img-div1">
-                        <div class="img-div"></div>
+                    <div class="img-div">
+                        <img src="assets/images/where-to-stay.jpg" alt="">
                         <div class="hover-effect"></div>
                     </div>
                     <div class="heading-img">
-                        <h3>Where to stay</h3>
+                        <h3 class="text-center">Where to stay</h3>
                     </div>
                 </div>
                 <div>
-                    <div class="img-div2">
-                        <div class="img-div"></div>
+                    <div class="img-div">
+                        <img src="assets/images/what-to-see.jpg" alt="">
                         <div class="hover-effect"></div>
                     </div>
                     <div class="heading-img">
-                        <h3>What to see</h3>
+                        <h3 class="text-center">What to see</h3>
                     </div>
                 </div>
                 <div>
-                    <div class="img-div3">
-                        <div class="img-div"></div>
+                    <div class="img-div">
+                        <img src="assets/images/dine-and-wine.jpg" alt="">
                         <div class="hover-effect"></div>
                     </div>
                     <div class="heading-img">
-                        <h3>Dine & Wine</h3>
+                        <h3 class="text-center">Dine & Wine</h3>
                     </div>
                 </div>
                 <div>
-                    <div class="img-div4">
-                        <div class="img-div"></div>
+                    <div class="img-div">
+                        <img src="assets/images/go-around.jpg" alt="">
                         <div class="hover-effect"></div>
                     </div>
                     <div class="heading-img">
-                        <h3>Go Around</h3>
+                        <h3 class="text-center">Go Around</h3>
                     </div>
                 </div>
             </div>
