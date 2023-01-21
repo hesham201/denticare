@@ -350,6 +350,36 @@ button {
     color: white;
 }
 
+/* dental professionals */
+.d-professionals .wrap {
+    max-width: 1300px;
+}
+
+.d-professionals .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
+
+.d-professionals .img-div img {
+    width: 100%;
+}
+
+.d-professionals .img-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+.d-professionals .line {
+    background-color: rgb(225, 232, 240);
+    height: 3px;
+}
+
+.d-professionals .img-grid img {
+    width: 100%;
+}
+
 /* card-main */
 .card-main {
     padding: 50px 0;

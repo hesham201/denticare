@@ -226,25 +226,27 @@ include_once "header.php"
     </section>
     <section class="d-professionals">
         <div class="wrap">
-            <div>
-                <img src="assets/images/img-dental-professionals.jpg" alt="">
-            </div>
-            <div>
-                <div>
-                    <div class="headings">
-                        <h3>The Dental</h3>
-                        <h2>Professionals</h2>
-                    </div>
-                    <div class="para">
-                        <p>DentiCare Studio is a well-established dentist in the heart of Budapest providing excellent dentistry for the whole family. Our priority is making you feel comfortable and at ease in a safe and welcoming environment.</p>
-                    </div>
-                    <div class="line"></div>
-                    <div class="pd-members">
-                        <h4>Proud Members</h4>
-                        <div>
-                            <img src="assets/images/logo-ada.png" alt="">
-                            <img src="assets/images/logo-adea.png" alt="">
-                            <img src="assets/images/logo-mouth-healthy.png" alt="">
+            <div class="grid">
+                <div class="img-div">
+                    <img src="assets/images/img-dental-professionals.jpg" alt="">
+                </div>
+                <div class="content align-self-center">
+                    <div>
+                        <div class="headings">
+                            <h3 class="clr-blue">The Dental</h3>
+                            <h2 class="clr-blue">Professionals</h2>
+                        </div>
+                        <div class="para">
+                            <p>DentiCare Studio is a well-established dentist in the heart of Budapest providing excellent dentistry for the whole family. Our priority is making you feel comfortable and at ease in a safe and welcoming environment.</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="pd-members">
+                            <h4>Proud Members</h4>
+                            <div class="img-grid">
+                                <img src="assets/images/logo-ada.png" alt="">
+                                <img src="assets/images/logo-adea.png" alt="">
+                                <img src="assets/images/logo-mouth-healthy.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
