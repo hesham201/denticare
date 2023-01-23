@@ -39,7 +39,7 @@
                         <li><a href="#">News</a></li>
                         <li><a href="#">Shop</a></li>
                     </ul>
-                    <ul class="menu-items icon-items">
+                    <ul class=" icon-items">
                         <li><a href=""><span><i class="fa-solid fa-bag-shopping"></i></span></a></li>
                         <li><a href=""><span><i class="fa-solid fa-magnifying-glass"></i></span></a></li>
                         <li><a href=""><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
@@ -47,6 +47,24 @@
                         <li><a href=""><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
                         <li><a href=""><span><i class="fa-brands fa-pinterest-p"></i></span></a></li>
                     </ul>
+                    <div class="sm-top-icons ">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <span><i class="fa fa-clock"></i></span>
+                            <h6>Monday to Friday</h6>
+                            <p>8AM - 9PM</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <span><i class="fa fa-location-dot"></i></span>
+                            <h6>Address</h6>
+                            <p>Deák Ferenc Street 19, Budapest, Hungary</p>
+
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <button>
+                                <span><i class="fa-solid fa-phone"></i></span>+36 55 540 069
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <!-- <ul class="menu-items icon-items">
                     <li><a href=""><span><i class="fa-solid fa-bag-shopping"></i></span></a></li>
