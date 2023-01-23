@@ -5,7 +5,7 @@ include_once "header.php"
 ?>
 
 <body>
-    <section>
+    <!-- <section>
         <div class="hero_carosel owl-carousel owl-theme">
             <div class="item">
                 <div class="hero-img">
@@ -51,7 +51,7 @@ include_once "header.php"
                         <button class="green-type">Check Out Our Services</button>
                         <button class="inherit-bg">View Dental Portfolio</button>
                     </div>
-                    <!-- <p class="carsl_btn"><a href="#" class="btn-gradient-bg">Learn More</a></p> -->
+                    <p class="carsl_btn"><a href="#" class="btn-gradient-bg">Learn More</a></p>
                 </div>
             </div>
             <div class="item">
@@ -65,7 +65,7 @@ include_once "header.php"
                         <button class="green-type">Check Out Our Services</button>
                         <button class="inherit-bg">View Dental Portfolio</button>
                     </div>
-                    <!-- <p class="carsl_cnt">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
+                    <p class="carsl_cnt">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                     <div class="experience-holdays">
                         <div class="exp-heading bg-green-type">
                             <h2>Experience Dental Holidays</h2>
@@ -90,9 +90,12 @@ include_once "header.php"
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="index-treatments">
         <div class="wrap">
+            <?php
+            include_once "navbar.php"
+            ?>
             <div class="grid">
                 <div>
                     <div></div>
@@ -155,46 +158,48 @@ include_once "header.php"
     </section>
     <section class="free-q">
         <div class="wrap">
-            <div>
-                <div>
-                    <div>
-                        <h2>Get A Free Quote</h2>
-                    </div>
-                    <div class="para">
-                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                    </div>
-                    <div class="form-q">
-                        <form action="">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <input type="text" placeholder="Your name *" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="grid">
+                <div class="area">
+                    <div class="conjest">
+                        <div class="heading">
+                            <h2>Get A Free Quote</h2>
+                        </div>
+                        <div class="para">
+                            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                        </div>
+                        <div class="form-q">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="text" placeholder="Your name *" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <input type="email" placeholder="Your Email Address *" class=" form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <textarea class="form-control" placeholder="Message and dental procedure you need *" id="" cols="30" rows="5"></textarea>
+                                    </div>
+                                    <div class="mt-3">
+                                        <button>Get A Qoute Now</button>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <input type="email" placeholder="Your Email Address *" class=" form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <textarea class="form-control" placeholder="Message and dental procedure you need *" id="" cols="30" rows="10"></textarea>
-                                </div>
-                                <div>
-                                    <button>Get A Qoute Now</button>
-                                </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <img src="assets/images/img-oscar.jpg" alt="">
+                <div class="img-div">
+                    <img src="assets/images/img-oscar.jpg" alt="">
+                </div>
             </div>
         </div>
     </section>
     <section class="clients-with">
         <div class="wrap">
-            <div class="heading-wrap">
+            <div class="heading-wrap d-flex justify-content-between align-items-center">
                 <div>
                     <h3>Clients With</h3>
                     <h2>Reason To Smile</h2>
@@ -203,7 +208,7 @@ include_once "header.php"
             </div>
             <div class="team-carousel">
                 <div class="item">
-                    <div class="profile">
+                    <div class="profile d-flex justify-content-between">
                         <div class="headings">
                             <h4>Jessica Bright</h4>
                             <h5>Full Dental Implants</h5>
@@ -216,11 +221,76 @@ include_once "header.php"
                         <p>Dynamically target high-payoff intellectual capital for customized technologies and processes.</p>
                     </div>
                 </div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
+                <div class="item">
+                    <div class="profile d-flex justify-content-between">
+                        <div class="headings">
+                            <h4>Jessica Bright</h4>
+                            <h5>Full Dental Implants</h5>
+                        </div>
+                        <div class="img-div">
+                            <img src="assets/images/jessica.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>Dynamically target high-payoff intellectual capital for customized technologies and processes.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="profile d-flex justify-content-between">
+                        <div class="headings">
+                            <h4>Jessica Bright</h4>
+                            <h5>Full Dental Implants</h5>
+                        </div>
+                        <div class="img-div">
+                            <img src="assets/images/jessica.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>Dynamically target high-payoff intellectual capital for customized technologies and processes.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="profile d-flex justify-content-between">
+                        <div class="headings">
+                            <h4>Jessica Bright</h4>
+                            <h5>Full Dental Implants</h5>
+                        </div>
+                        <div class="img-div">
+                            <img src="assets/images/jessica.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>Dynamically target high-payoff intellectual capital for customized technologies and processes.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="profile d-flex justify-content-between">
+                        <div class="headings">
+                            <h4>Jessica Bright</h4>
+                            <h5>Full Dental Implants</h5>
+                        </div>
+                        <div class="img-div">
+                            <img src="assets/images/jessica.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>Dynamically target high-payoff intellectual capital for customized technologies and processes.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="profile d-flex justify-content-between">
+                        <div class="headings">
+                            <h4>Jessica Bright</h4>
+                            <h5>Full Dental Implants</h5>
+                        </div>
+                        <div class="img-div">
+                            <img src="assets/images/jessica.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>Dynamically target high-payoff intellectual capital for customized technologies and processes.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -330,32 +400,46 @@ include_once "header.php"
     </section>
     <section class="perfect-smile">
         <div class="wrap">
-            <div>
-                <div class="headingss">
-                    <h3>Perfect Smile</h3>
-                    <h2>Excellent Defined</h2>
-                </div>
-                <div class="para">
-                    <p>Teeth whitening is one of the quickest ways to improve your smile. Many patients are amazed that one trip to DentiCare can change their teeth dramatically.</p>
-                </div>
-                <div class="progresses">
-                    <div class="entity">
-                        <p>Dental Satisfaction</p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="grid">
+                <div>
+                    <div class="headingss">
+                        <h3 class="clr-blue">Perfect Smile</h3>
+                        <h2 class="clr-blue">Excellent Defined</h2>
+                    </div>
+                    <div class="para">
+                        <p>Teeth whitening is one of the quickest ways to improve your smile. Many patients are amazed that one trip to DentiCare can change their teeth dramatically.</p>
+                    </div>
+                    <div class="progresses">
+                        <div class="entity">
+                            <p>Dental Satisfaction</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="entity">
+                            <p>Success Rate</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="entity">
+                            <p>Travel Satisfaction</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="entity">
-                        <p>Success Rate</p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                </div>
+                <div class="something-new">
+                    <div class="image-container">
+                        <img class="image-before slider-image" src="assets/images/teeth-before.jpg" alt="color photo" />
+                        <img class="image-after slider-image" src="assets/images/teeth-after.jpg" alt="black and white" />
                     </div>
-                    <div class="entity">
-                        <p>Travel Satisfaction</p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                    <!-- step="10" -->
+                    <input type="range" min="0" max="100" value="50" aria-label="Percentage of before photo shown" class="slider" />
+                    <div class="slider-line" aria-hidden="true"></div>
+                    <div class="slider-button" aria-hidden="true">
+                        <i class="fa fa-circle"></i>
                     </div>
                 </div>
             </div>
@@ -467,6 +551,12 @@ include_once "header.php"
     <?php
     include_once "footer.php"
     ?>
+    <script>
+        const container = document.querySelector('.something-new');
+        document.querySelector('.slider').addEventListener('input', (e) => {
+            container.style.setProperty('--position', `${e.target.value}%`);
+        })
+    </script>
 </body>
 
 </html>

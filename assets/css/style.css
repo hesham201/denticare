@@ -36,13 +36,42 @@ button {
     margin: auto;
 }
 
+.top-nav {
+    padding: 5px 15px;
+    background-color: #00af89;
+}
+
+.top-nav button {
+    padding: 0.875em 1em;
+    background-color: #104099;
+    color: white;
+}
+
+.top-nav h6,
+.top-nav span {
+    color: white;
+}
+
+.top-nav p {
+    color: rgba(255, 255, 255, .5);
+}
+
+.top-nav h6,
+.top-nav p {
+    margin-bottom: 0;
+}
+
+.top-nav .d-flex>* {
+    margin: 0 3px;
+}
+
 .navbar {
     box-shadow: 0px 5px 10px 0px #aaa;
-    position: fixed;
-    width: 100%;
+    /* position: fixed;
+    width: 100%; */
     background: #fff;
     color: #000;
-    opacity: 0.85;
+    /* opacity: 0.85; */
     z-index: 100;
 }
 
@@ -76,6 +105,10 @@ button {
     transition: color 0.3s ease-in-out;
 }
 
+.navbar .logo img {
+    width: 126px;
+}
+
 .navbar a:hover {
     color: #117964;
 }
@@ -83,6 +116,18 @@ button {
 @media (max-width: 768px) {
     .navbar {
         opacity: 0.95;
+    }
+
+    .navbar .main-links {
+        flex-direction: column;
+    }
+
+    .navbar .menu-items.icon-items {
+        transform: translateY(0);
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .navbar-container input[type="checkbox"],
@@ -350,6 +395,143 @@ button {
     color: white;
 }
 
+
+/* index treatment */
+.index-treatments .wrap {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.index-treatments .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+/* free qoute  */
+.free-q {
+    color: white;
+}
+
+.free-q input {
+    height: 3.25em;
+    border-radius: 2px;
+}
+
+.free-q button {
+    padding: 1.357em 1.786em;
+    font-size: .875em;
+    line-height: 1;
+    background-position: 0 0;
+    background-size: 200% 100% !important;
+    border: 0;
+    color: #fff;
+    background: #104099;
+    box-shadow: 1px 1px 3px 1px rgb(34 34 34 / 20%);
+    transition: all 300ms ease;
+}
+
+.free-q button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(to right, #00af89 1%, #104099 100%);
+
+}
+
+.free-q input {
+    height: 4em;
+}
+
+.free-q .wrap {
+    max-width: 1500px;
+    margin-left: auto;
+}
+
+.free-q .area {
+    padding: 50px 0;
+    margin-right: -30px;
+    position: relative;
+    z-index: 2;
+}
+
+.free-q .grid {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    align-items: center;
+}
+
+.free-q .img-div img {
+    width: 100%;
+}
+
+.free-q .conjest {
+    background-color: #00af89;
+    padding: 50px 25px;
+
+}
+
+/* reason to smile  */
+.clients-with .wrap {
+    max-width: 1200px;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.clients-with .heading-wrap {
+    max-width: 1000px;
+}
+
+.clients-with .owl-nav {
+    display: none;
+}
+
+.clients-with .item {
+    background-color: rgb(240, 244, 247);
+    padding: 30px 15px;
+}
+
+.clients-with .owl-dots {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-with .owl-dots .owl-dot {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0 3px;
+    background: none;
+}
+
+.clients-with .owl-dots .owl-dot::before {
+    content: "";
+    width: 17px;
+    height: 3px;
+    position: absolute;
+    transform: translateY(-50%);
+    background-color: rgb(240, 244, 247);
+    transition: all .5s ease-in;
+}
+
+.clients-with .owl-dots .owl-dot.active::before {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #00af89;
+}
+
+.clients-with .item .img-div img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.clients-with .owl-stage {
+    display: flex;
+}
+
 /* dental professionals */
 .d-professionals .wrap {
     max-width: 1300px;
@@ -464,6 +646,110 @@ button {
     transition: all .5s ease-in;
 }
 
+
+
+/* prefect smile  */
+.perfect-smile {
+    padding: 50px 15px;
+}
+
+.perfect-smile .wrap {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.perfect-smile .progress {
+    height: 10px;
+}
+
+.perfect-smile .progress-bar {
+    background-color: #00af89;
+}
+
+.perfect-smile .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    align-items: center;
+}
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.image-before {
+    position: absolute;
+    inset: 0;
+    width: var(--position);
+    /* filter: grayscale(100%) */
+}
+
+.slider {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    opacity: 0;
+    /* for Firefox */
+    width: 100%;
+    height: 100%;
+}
+
+.slider:focus-visible~.slider-button {
+    outline: 5px solid black;
+    outline-offset: 3px;
+}
+
+.slider-line {
+    position: absolute;
+    inset: 0;
+    width: .2rem;
+    height: 100%;
+    background-color: #fff;
+    /* z-index: 10; */
+    left: var(--position);
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+.something-new {
+    display: grid;
+    place-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    --position: 50%;
+}
+
+.img-con {
+    max-width: 800px;
+    max-height: 90vh;
+    aspect-ratio: 1/1;
+}
+
+.slider-button {
+    position: absolute;
+    background-color: #fff;
+    color: rgb(0, 175, 137);
+    padding: .5rem;
+    border-radius: 100vw;
+    display: grid;
+    place-items: center;
+    top: 50%;
+    left: var(--position);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    /* z-index: 100; */
+    box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
+}
+
+
+.perfect-smile .img-con img {
+    width: 100%
+}
+
 /* dental travel */
 .dental-travel {
     background: url(../images/dental-travel.jpg);
@@ -472,15 +758,16 @@ button {
     padding-top: 100px;
 }
 
-/* 
+
 .dental-travel .wrap {
     max-width: 1200px;
     margin: auto;
-} */
+}
 
 .dental-travel .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 
 .dental-travel .icons-box {

@@ -1,18 +1,18 @@
 <section class="top-nav">
     <div class="wrap">
         <div class="d-flex justify-content-end">
-            <div>
+            <div class="d-flex align-items-center">
                 <span><i class="fa fa-clock"></i></span>
                 <h6>Monday to Friday</h6>
                 <p>8AM - 9PM</p>
             </div>
-            <div>
+            <div class="d-flex align-items-center">
                 <span><i class="fa fa-location-dot"></i></span>
                 <h6>Address</h6>
                 <p>Deák Ferenc Street 19, Budapest, Hungary</p>
 
             </div>
-            <div>
+            <div class="d-flex justify-content-center align-items-center">
                 <button>
                     <span><i class="fa-solid fa-phone"></i></span>+36 55 540 069
                 </button>
@@ -30,23 +30,33 @@
                     <span class="line line2"></span>
                     <span class="line line3"></span>
                 </div>
-                <ul class="menu-items">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Shop</a></li>
-                </ul>
-                <ul class="menu-items icon-items">
+                <div class="menu-items">
+                    <ul class="main-links d-flex">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                    <ul class="menu-items icon-items">
+                        <li><a href=""><span><i class="fa-solid fa-bag-shopping"></i></span></a></li>
+                        <li><a href=""><span><i class="fa-solid fa-magnifying-glass"></i></span></a></li>
+                        <li><a href=""><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                        <li><a href=""><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                        <li><a href=""><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+                        <li><a href=""><span><i class="fa-brands fa-pinterest-p"></i></span></a></li>
+                    </ul>
+                </div>
+                <!-- <ul class="menu-items icon-items">
                     <li><a href=""><span><i class="fa-solid fa-bag-shopping"></i></span></a></li>
                     <li><a href=""><span><i class="fa-solid fa-magnifying-glass"></i></span></a></li>
                     <li><a href=""><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
                     <li><a href=""><span><i class="fa-brands fa-twitter"></i></span></a></li>
                     <li><a href=""><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
                     <li><a href=""><span><i class="fa-brands fa-pinterest-p"></i></span></a></li>
-                </ul>
-                <h1 class="logo">Navbar</h1>
+                </ul> -->
+                <a class="logo"><img src="assets/images/denticare-logo-inv.png" alt=""></a>
             </div>
         </nav>
     </div>
