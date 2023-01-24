@@ -8,7 +8,7 @@ include_once "header.php"
     <?php
     include_once "navbar.php"
     ?>
-    <section class="mst-header">
+    <!-- <section class="mst-header">
         <div class="header-carousel">
             <div class="item">
                 <div class="single-1">
@@ -53,8 +53,8 @@ include_once "header.php"
                 </div>
             </div>
         </div>
-    </section>
-    <section class="goes-up">
+    </section> -->
+    <!-- <section class="goes-up">
         <div class="wrap">
             <div class="experience-holdays">
                 <div class="exp-heading bg-green-type">
@@ -77,7 +77,7 @@ include_once "header.php"
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="index-treatments">
         <div class="wrap">
             <div class="grid">
