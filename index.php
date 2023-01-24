@@ -5,97 +5,81 @@ include_once "header.php"
 ?>
 
 <body>
-    <!-- <section>
-        <div class="hero_carosel owl-carousel owl-theme">
+    <?php
+    include_once "navbar.php"
+    ?>
+    <section class="mst-header">
+        <div class="header-carousel">
             <div class="item">
-                <div class="hero-img">
-                    <img src="assets/images/img-oscar.jpg" alt="">
-                </div>
-                <div class="desc ">
-                    <span class="tag ">Welcome</span>
-                    <h2>Photography is on it's way.</h2>
-                    <p class="carsl_cnt">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p class="carsl_btn"><a href="#" class="btn-gradient-bg">View Galleries </a></p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="hero-img">
-                    <img src="assets/images/img-slider-02.jpg" alt="">
-                </div>
-                <div class="desc ">
-                    <span class="tag ">Discover</span>
-                    <h2>Discover New Things</h2>
-                    <p class="carsl_cnt">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p class="carsl_btn"><a href="#" class="btn-gradient-bg">Learn More</a></p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="hero-img">
-                    <img src="assets/images/img-slider-04.jpg" alt="">
-                </div>
-                <div class="desc ">
-                    <span class="tag ">Photography</span>
-                    <h2>Capture interesting things.</h2>
-                    <p class="carsl_cnt">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p class="carsl_btn"><a href="#" class="btn-gradient-bg">View More</a></p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="hero-img">
-                    <img src="assets/images/img-slider-01.jpg" alt="">
-                </div>
-                <div class="desc">
-                    <span class="tag">Creating</span>
-                    <h2>Brighter Smiles</h2>
-                    <div class="carsl_cnt d-flex">
-                        <button class="green-type">Check Out Our Services</button>
-                        <button class="inherit-bg">View Dental Portfolio</button>
-                    </div>
-                    <p class="carsl_btn"><a href="#" class="btn-gradient-bg">Learn More</a></p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="hero-img">
-                    <img src="https://cdn.pixabay.com/photo/2016/11/29/02/28/attractive-1866858__340.jpg" alt="">
-                </div>
-                <div class="desc ">
-                    <span class="tag">Passion</span>
-                    <h2>Multimedia Channel</h2>
-                    <div class="d-flex carsl_cnt">
-                        <button class="green-type">Check Out Our Services</button>
-                        <button class="inherit-bg">View Dental Portfolio</button>
-                    </div>
-                    <p class="carsl_cnt">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <div class="experience-holdays">
-                        <div class="exp-heading bg-green-type">
-                            <h2>Experience Dental Holidays</h2>
+                <div class="single-1">
+                    <div>
+                        <div class="headings">
+                            <h3 class="tag clr-green">Save With Our</h3>
+                            <h2>Dental Travel</h2>
                         </div>
-                        <div class="bg-blue-type">
-                            <span><i class="fa-solid fa-jet-fighter-up"></i></span>
-                        </div>
-                        <div class="bg-blue-type">
-                            <span><i class="fa-solid fa-globe"></i></span>
-                        </div>
-                        <div class="bg-blue-type">
-                            <span><i class="fa-solid fa-hospital"></i></span>
-                        </div>
-                        <div class="bg-blue-type">
-                            <span><i class="fa-solid fa-tooth"></i></span>
-                        </div>
-                        <div class="bg-blue-type">
-                            <button>Start Your Dental Travel</button>
+                        <div class="btn-divs carsl_cnt">
+                            <button class="green-btn">Dental Travel Packages</button>
+                            <button class="blu-btn">Dental Travel Calculator</button>
                         </div>
                     </div>
-                    <p class="carsl_btn"><a href="#" class="btn-gradient-bg">Learn More</a></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="single-2">
+                    <div>
+                        <div class="headings">
+                            <h3 class="tag clr-green">Be Proud Of</h3>
+                            <h2>Your Smile</h2>
+                        </div>
+                        <div class="btn-divs carsl_cnt">
+                            <button class="green-btn">View DentiCare</button>
+                            <button class="whit-btn">Satisfied Client Testimonials</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="single-3">
+                    <div>
+                        <div class="headings">
+                            <h3 class="clr-green">Creating</h3>
+                            <h2>Brighter Smile</h2>
+                        </div>
+                        <div class="btn-divs carsl_cnt">
+                            <button class="green-btn">Check Out Our Services</button>
+                            <button class="whit-btn">View Dental Portfolio</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
+    <section class="goes-up">
+        <div class="wrap">
+            <div class="experience-holdays">
+                <div class="exp-heading bg-green-type">
+                    <h2>Experience Dental Holidays</h2>
+                </div>
+                <div class="bg-blue-type same-icons">
+                    <span class="flight-icon"><i class="fa-solid fa-jet-fighter-up"></i></span>
+                </div>
+                <div class="bg-blue-type same-icons">
+                    <span><i class="fa-solid fa-globe"></i></span>
+                </div>
+                <div class="bg-blue-type same-icons">
+                    <span><i class="fa-solid fa-hospital"></i></span>
+                </div>
+                <div class="bg-blue-type same-icons">
+                    <span class="last"><i class="fa-solid fa-tooth"></i></span>
+                </div>
+                <div class="bg-blue-type st-ur-dental">
+                    <button>Start Your Dental Travel</button>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="index-treatments">
         <div class="wrap">
-            <?php
-            include_once "navbar.php"
-            ?>
             <div class="grid">
                 <div>
                     <div></div>

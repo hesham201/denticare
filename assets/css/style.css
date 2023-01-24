@@ -73,10 +73,12 @@ button {
 }
 
 .navbar {
-    box-shadow: 0px 5px 10px 0px #aaa;
+    /* box-shadow: 0px 5px 10px 0px #aaa; */
     /* position: fixed;
     width: 100%; */
-    background: #fff;
+    background: inherit;
+    position: relative;
+    z-index: 100;
     color: #000;
     /* opacity: 0.85; */
     z-index: 100;
@@ -106,7 +108,7 @@ button {
 }
 
 .navbar a {
-    color: #444;
+    color: white;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
@@ -292,6 +294,60 @@ button {
 
 }
 
+.dropdown-tog {
+    position: relative;
+}
+
+.dropdown-tog .dropdo {
+    padding-top: 30px !important;
+    background-color: white;
+    padding: 0 10px;
+    position: absolute;
+    top: 62px;
+    left: -30px;
+    display: none;
+    transition: display .3s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.navbar .dropdo a {
+    color: black;
+}
+
+.dropdown-tog:hover>.dropdo {
+    display: block;
+}
+
+.navbar .main-links a {
+    padding: 10PX;
+    transition: all .3s ease-in;
+}
+
+.dropdown-tog:hover>.dot {
+    display: block;
+}
+
+.navbar .dot {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #00af89;
+    display: none;
+    z-index: 2;
+    bottom: -7px;
+    left: 32px;
+    transition: all .3s ease-in;
+}
+
+.navbar .main-links li:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar .main-links li:hover a {
+    color: black;
+}
+
 @media (max-width: 500px) {
     .navbar-container input[type="checkbox"]:checked~.logo {
         display: none;
@@ -453,6 +509,92 @@ button {
     color: white;
 }
 
+/* header  */
+.mst-header h2 {
+    color: white;
+}
+
+
+.mst-header .whit-btn {
+    background: inherit;
+    border: 1px solid white;
+    color: white;
+    transition: transform .2s ease-in;
+}
+
+.mst-header button {
+    padding: 15px 0;
+    color: white;
+    font-size: 13px;
+    min-width: 215px;
+
+}
+
+.mst-header .btn-divs {
+    margin-top: 30px;
+}
+
+.mst-header .whit-btn:hover {
+    transform: translateY(-3px);
+}
+
+.mst-header .green-btn {
+    background: rgb(0, 175, 137);
+    transition: all .2s ease-in;
+    color: white;
+}
+
+.mst-header .owl-dots,
+.mst-header .owl-nav {
+    display: none;
+}
+
+.mst-header .green-btn:hover {
+    transform: translateY(-3px);
+    background-image: linear-gradient(to right, #00af89 51%, #104099 100%);
+}
+
+.mst-header .blu-btn {
+    background: rgb(16, 64, 153);
+    transition: all .2s ease-in;
+}
+
+.mst-header .blu-btn:hover {
+    transform: translateY(-3px);
+    background-image: linear-gradient(to right, #104099 51%, #00af89 100%);
+}
+
+.mst-header {
+    margin-top: -80px;
+}
+
+.mst-header .single-1,
+.mst-header .single-2,
+.mst-header .single-3 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.mst-header .single-3 {
+    background: url(../images/img-slider-01.jpg);
+    background-size: cover;
+}
+
+.mst-header .owl-stage {
+    display: flex;
+}
+
+.mst-header .single-2 {
+    background: url(../images/img-slider-02.jpg);
+    background-size: cover;
+}
+
+.mst-header .single-1 {
+    background: url(../images/img-slider-04.jpg);
+    background-size: cover;
+}
 
 /* index treatment */
 .index-treatments .wrap {
@@ -465,6 +607,66 @@ button {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
     row-gap: 30px;
+}
+
+/* goes up  */
+.goes-up {
+    margin-top: -200px;
+    position: relative;
+    z-index: 2;
+}
+
+.goes-up .wrap {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.goes-up .same-icons {
+    padding: 35px 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.goes-up .same-icons span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border-right: 1px solid white;
+}
+
+.goes-up .same-icons .last {
+    border: none;
+}
+
+.goes-up .experience-holdays>div {
+    align-self: center;
+    height: 100%;
+}
+
+.goes-up .st-ur-dental {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/bgn-b.jpg);
+    background-size: cover;
+
+}
+
+.goes-up .exp-heading {
+    padding: 20px;
+}
+
+.goes-up .flight-icon svg {
+    transform: rotate(45deg);
+}
+
+.goes-up .st-ur-dental button {
+    padding: 0.357em 0.786em;
 }
 
 /* free qoute  */
@@ -492,7 +694,7 @@ button {
 
 .free-q button:hover {
     transform: translateY(-2px);
-    background: linear-gradient(to right, #00af89 1%, #104099 100%);
+    background: linear-gradient(to right, #00af89 8%, #104099 52%);
 
 }
 

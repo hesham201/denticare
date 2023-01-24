@@ -32,7 +32,15 @@
                 </div>
                 <div class="menu-items">
                     <ul class="main-links d-flex">
-                        <li><a href="#">About Us</a></li>
+                        <li class="dropdown-tog"><a href="#">About Us</a>
+                            <div class="dot"></div>
+                            <ul class="dropdo">
+                                <li><a href="#">Menu Item</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Search</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Pages</a></li>
                         <li><a href="#">Portfolio</a></li>
